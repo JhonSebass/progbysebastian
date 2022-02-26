@@ -1,0 +1,92 @@
+body{
+	background-color: #000000;
+}
+	
+p{
+	color: #AEB6BF;
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Source Sans 3', sans-serif;
+	font-style: Black 900;
+	font-size: 25px;
+	
+}
+
+.texto_dinamico{
+	position: absolute;
+	top: 57%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.ciudad{
+	position: absolute;
+	top: 62%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: 'Source Sans 3'. sans-serif;
+	font-style: italic;
+	font-size: 10px;
+}
+
+
+
+.card-header .profile-img{
+	width: 160px;
+	height: 160px;
+	border-radius: 1000px;
+	position: absolute;
+	left: 50%;
+	top: 35%;
+	transform: translate(-50%, -50%);
+	border-radius: 8px solid #c74385;
+	border: 8px solid #85929E;
+	box-shadow: 0 0 20px #00000033;
+
+	
+}
+
+.card-header .profile-img:hover{
+	width: 161px;
+	height: 161px;
+	border: 8px solid #FFFFFF;
+}
+
+.social-links {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 30px;
+
+}
+
+.social-links .social-icon{
+	color: white;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 40px;
+	height: 40px;
+	background-color: #85929E;
+	color: #black;
+	font-size: 20px;
+	border-radius: 100%;
+	text-decoration: none;
+	margin: 0 13px 30px 0;
+}
+
+.social-links .social-icon:last-child{
+	margin-right: 0;
+}
+
+.social-links .social-icon:hover{
+	
+	border: 3px solid; #FFFFFF;
+	
+}
+
