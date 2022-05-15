@@ -32,6 +32,8 @@ p{
 	flex-direction: row;
 }
 
+
+
 .profile-img{
 	width: 160px;
 	height: 160px;
@@ -71,3 +73,12 @@ p{
 	transform: scale(1.5);
 	color: black;
 }
+
+.opensea-vector{
+	width: 40px;
+	height: 40px;
+	text-align: center;
+
+}
+
+
